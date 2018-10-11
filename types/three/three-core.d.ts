@@ -4293,7 +4293,7 @@ export class Triangle {
     getArea(): number;
     getMidpoint(target: Vector3): Vector3;
     getNormal(target: Vector3): Vector3;
-    getPlane(target: Vector3): Plane;
+    getPlane(target: Plane): Plane;
     getBarycoord(point: Vector3, target: Vector3): Vector3;
     containsPoint(point: Vector3): boolean;
     closestPointToPoint(point: Vector3, target: Vector3): Vector3;
