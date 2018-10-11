@@ -2574,7 +2574,7 @@ declare function equal<T>(a: T, b: T, desc?: string): void;
 
     test( "getPlane", function() {
         var a = new THREE.Triangle();
-        var target = new THREE.Vector3();
+        var target = new THREE.Plane();
 
         // artificial normal is created in this case.
         ok( a.getPlane( target ).distanceToPoint( a.a ) == 0, "Passed!" );
